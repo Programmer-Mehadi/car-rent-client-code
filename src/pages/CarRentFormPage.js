@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CarList = () => {
+const CarRentFormPage = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const CarList = () => {
     );
 };
 
-export default CarList;
+export default CarRentFormPage;

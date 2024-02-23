@@ -1,20 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
-import CarDetails from "../pages/CarDetails";
-import CarList from "../pages/CarList";
-import CarRentForm from "../pages/CarRentForm";
+import CarDetailsPage from "../pages/CarDetailsPage";
+import CarListPage from "../pages/CarListPage";
+import CarRentFormPage from "../pages/CarRentFormPage";
+
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element:<CarList></CarList>
+        element:<CarListPage></CarListPage>
     },
     {
         path: '/cardetails',
-        element:<CarDetails></CarDetails>
+        element:<CarDetailsPage></CarDetailsPage>
     },
     {
         path: '/carrentform',
-        element:<CarRentForm></CarRentForm>
+        element:<CarRentFormPage></CarRentFormPage>
     }
 ])
 
